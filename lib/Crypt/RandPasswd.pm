@@ -7,7 +7,7 @@ use strict;
 
 use vars qw($VERSION);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 
 =head1 NAME
@@ -21,6 +21,14 @@ Crypt::RandPasswd - random password generator based on FIPS-181
   $word = Crypt::RandPasswd->word( $minlen, $maxlen );
   $word = Crypt::RandPasswd->letters( $minlen, $maxlen );
   $word = Crypt::RandPasswd->chars( $minlen, $maxlen );
+
+  # override the defaults for these functions:
+  *Crypt::RandPasswd::rng = \&my_random_number_generator;
+  *Crypt::RandPasswd::restrict = \&my_restriction_filter;
+
+=head2 Run as Script
+
+  perl Crypt/RandPasswd.pm -help
 
 =head1 SEE ALSO
 
