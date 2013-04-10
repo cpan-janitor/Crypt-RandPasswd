@@ -1,8 +1,8 @@
 Revision history for Perl extension Crypt::RandPasswd.
 
-0.02 Fri Jul 21 14:19:43 EDT 2000
+0.02 2000-07-21
 	- Added README file.
 
-0.01 Thu Jul 20 17:18:45 EDT 2000
+0.01 2000-07-20
 	- original version; created by h2xs 1.19
 
