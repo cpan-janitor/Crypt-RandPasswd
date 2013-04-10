@@ -1,5 +1,9 @@
 Revision history for Perl extension Crypt::RandPasswd.
 
+0.03 2013-04-10
+    - Fixed bug where word() would sometimes go into an infinite loop
+    - Reformatted according to CPAN::Changes::Spec
+
 0.02 2000-07-21
 	- Added README file.
 

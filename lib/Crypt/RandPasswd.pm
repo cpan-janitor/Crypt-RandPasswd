@@ -7,7 +7,7 @@ use strict;
 
 use vars qw($VERSION);
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 
 =head1 NAME
@@ -1924,6 +1924,7 @@ sub get_syllable($) {
     my $vowel_count;
     my $tries;
     my $length_left;
+    my $outer_tries;
 
     # flags:
     my $rule_broken;
@@ -1945,7 +1946,9 @@ sub get_syllable($) {
     #
     # Loop until valid syllable is found.
     #
+    $outer_tries = 0;
     do {
+        ++$outer_tries;
         # 
         # Try for a new syllable.  Initialize all pertinent
         # syllable variables.
@@ -2332,7 +2335,9 @@ local *ALLOWED = sub {
         }
         while ( $tries <= $max_retries and $want_another_unit );
     }
-    while ( $rule_broken or _illegal_placement( @units_in_syllable ) );
+    while ( $outer_tries < $max_retries && ($rule_broken or _illegal_placement( @units_in_syllable )) );
+
+    return ('') if $outer_tries >= $max_retries;
 
     return( $syllable, @units_in_syllable );
 } # sub get_syllable
