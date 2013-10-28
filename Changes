@@ -1,4 +1,8 @@
-Revision history for Perl extension Crypt::RandPasswd.
+Revision history for Perl module Crypt::RandPasswd
+
+0.03 2013-10-28
+    - github repo and license type (perl) now specified in Makefile.PL
+      so it will appear in the dist's metadata.
 
 0.03 2013-04-10
     - Fixed bug where word() would sometimes go into an infinite loop
