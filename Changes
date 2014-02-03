@@ -1,6 +1,7 @@
 Revision history for Perl module Crypt::RandPasswd
 
 0.05 2014-02-03
+    - Replaced old testsuite (test.pl) with tests in t/
     - Added "use warnings"
     - Specified min version of perl 5.6.0
 
