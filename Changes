@@ -1,6 +1,9 @@
 Revision history for Perl module Crypt::RandPasswd
 
-0.03 2013-10-28
+0.05 2014-02-03
+    - Added "use warnings"
+
+0.04 2013-10-28
     - github repo and license type (perl) now specified in Makefile.PL
       so it will appear in the dist's metadata.
 
@@ -9,8 +12,8 @@ Revision history for Perl module Crypt::RandPasswd
     - Reformatted according to CPAN::Changes::Spec
 
 0.02 2000-07-21
-	- Added README file.
+    - Added README file.
 
 0.01 2000-07-20
-	- original version; created by h2xs 1.19
+    - original version; created by h2xs 1.19
 
