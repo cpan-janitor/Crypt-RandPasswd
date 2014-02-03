@@ -1427,7 +1427,7 @@ sub word($$) {
 
 Generates a string of random letters.
 The length of the returned word is between minlen and maxlen.  
-Calls C<random_chars_in_range( 'a' => 'z' )>.
+Calls C<random_chars_in_range( 'a' =E<gt> 'z' )>.
 
 =cut
 
@@ -1444,7 +1444,7 @@ sub letters($$) {
 
 Generates a string of random printable characters.
 The length of the returned word is between minlen and maxlen.  
-Calls C<random_chars_in_range( '!' => '~' )>.
+Calls C<random_chars_in_range( '!' =E<gt> '~' )>.
 
 =cut
 
