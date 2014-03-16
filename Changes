@@ -1,5 +1,8 @@
 Revision history for Perl module Crypt::RandPasswd
 
+0.06 2014-
+    - Fixed typo in code comment (thanks dsteinbrunner)
+
 0.05 2014-02-03
     - Replaced old testsuite (test.pl) with tests in t/
     - Added "use warnings"
