@@ -1,4 +1,3 @@
-
 {
 
 package Crypt::RandPasswd;
@@ -2085,7 +2084,7 @@ local *ALLOWED = sub {
 
                     if ($current_unit == 1) {
                         #
-                        # Reject the unit if we are at te starting digram of
+                        # Reject the unit if we are at the starting digram of
                         # a syllable and it does not fit.
                         #
                         if (ALLOWED(NOT_FRONT)) {
