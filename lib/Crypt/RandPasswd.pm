@@ -2514,6 +2514,9 @@ for ( 1 .. $num_words ) {
 
 1;
 
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/Crypt-RandPasswd>
 
 =head1 AUTHOR
 
