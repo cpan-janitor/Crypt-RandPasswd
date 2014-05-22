@@ -3,6 +3,7 @@ Revision history for Perl module Crypt::RandPasswd
 0.06 2014-05-28
     - Fixed typo in code comment (thanks dsteinbrunner)
     - Added github repo to pod
+    - Added intro paragraph to doc and beefed up SEE ALSO section
 
 0.05 2014-02-03
     - Replaced old testsuite (test.pl) with tests in t/
