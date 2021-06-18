@@ -2519,6 +2519,15 @@ L<App::Genpass>, L<Crypt::XkcdPassword>,
 L<Crypt::YAPassGen>, L<Data::Random>,
 L<String::Random>.
 
+L<Data::Password::zxcvbn> is a Perl port of Dropbox's
+password strength estimation library
+L<zxcvbn|https://github.com/dropbox/zxcvbn>.
+
+L<Data::Password::passwdqc> can generate passwords and also
+check their strength.
+It's a Perl wrapper around the L<passwdqc|https://www.openwall.com/passwdqc>
+library from L<Openwall|https://www.openwall.com>.
+
 FIPS 181 - (APG), Automated Password Generator:
 http://www.itl.nist.gov/fipspubs/fip181.htm
 
