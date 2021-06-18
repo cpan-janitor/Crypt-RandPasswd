@@ -2469,6 +2469,7 @@ unless ( defined caller ) {
 
 # this can be used for unit testing or to make the module a stand-alone program.
 package main;
+
 use Getopt::Long;
 
 $^W = 1;

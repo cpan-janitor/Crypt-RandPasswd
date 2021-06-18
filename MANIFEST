@@ -1,8 +1,0 @@
-Changes
-MANIFEST
-Makefile.PL
-README
-lib/Crypt/RandPasswd.pm
-t/01-word.t
-t/02-letters.t
-t/03-chars.t
