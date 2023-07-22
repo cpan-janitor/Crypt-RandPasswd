@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Crypt::RandPasswd qw(word);
+use Crypt::RandPasswd;
 use Test::More 0.88 tests => 20;
 
 my $word;
